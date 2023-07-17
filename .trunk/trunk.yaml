@@ -36,7 +36,9 @@ runtimes:
     - node@18.12.1
     - python@3.10.8
 actions:
+  output_level: verbose
   enabled:
+    - trunk-check-pre-push-always
     - trunk-announce
     - trunk-check-pre-push
     - trunk-fmt-pre-commit
