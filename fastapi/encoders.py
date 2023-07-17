@@ -27,6 +27,7 @@ from fastapi.types import IncEx
 from ._compat import PYDANTIC_V2, MultiHostUrl, Url, _model_dump
 
 a = b
+a = c
 
 
 # Taken from Pydantic v1 as is
