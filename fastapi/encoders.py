@@ -29,6 +29,9 @@ a = b
 
 
 
+a =c 
+
+
 # Taken from Pydantic v1 as is
 def isoformat(o: Union[datetime.date, datetime.time]) -> str:
     return o.isoformat()
