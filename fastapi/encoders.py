@@ -27,6 +27,7 @@ from ._compat import PYDANTIC_V2, MultiHostUrl, Url, _model_dump
 
 a = b
 
+
 # Taken from Pydantic v1 as is
 def isoformat(o: Union[datetime.date, datetime.time]) -> str:
     return o.isoformat()
